@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com</groupId>
-	<artifactId>sgci</artifactId>
+	<artifactId>rerms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sgci</name>
-	<description>SCGI -Real Estate Registration Management System</description>
+	<name>rerms</name>
+	<description>RERMS - Real Estate Registration Management System</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -49,6 +49,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    		<groupId>jakarta.validation</groupId>
+    		<artifactId>jakarta.validation-api</artifactId>
+    		<version>3.1.0</version>
+		</dependency>
+		
+		<dependency>
+    <groupId>org.flywaydb</groupId>
+    <artifactId>flyway-mysql</artifactId>
+    <version>10.21.0</version>
+</dependency>
+
 	</dependencies>
 
 	<build>
