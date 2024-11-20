@@ -1,13 +1,13 @@
-package br.com.sgci;
+package br.com.rerms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SgciApplication {
+public class RermsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SgciApplication.class, args);
+		SpringApplication.run(RermsApplication.class, args);
 	}
 
 }

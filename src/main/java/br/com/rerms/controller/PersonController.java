@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("properties")
-public class PropertyController {
+public class PersonController {
 	
 	@GetMapping
 	public ResponseEntity<String> findAll(){
